@@ -1,0 +1,57 @@
+Heading: Porting Python 2 Code to Python 3
+Link: pyporting.html
+
+Heading: Porting Extension Modules to Python 3
+Link: cporting.html
+
+Heading: Curses Programming with Python
+Link: curses.html
+
+Heading: Descriptor HowTo Guide
+Link: descriptor.html
+
+Heading: Enum HOWTO
+Link: enum.html
+
+Heading: Functional Programming HOWTO
+Link: functional.html
+
+Heading: Logging HOWTO
+Link: logging.html
+
+Heading: Logging Cookbook
+Link: logging-cookbook.html
+
+Heading: Regular Expression HOWTO
+Link: regex.html
+
+Heading: Socket Programming HOWTO
+Link: sockets.html
+
+Heading: Sorting HOW TO
+Link: sorting.html
+
+Heading: Unicode HOWTO
+Link: unicode.html
+
+Heading: HOWTO Fetch Internet Resources Using The urllib Package
+Link: urllib2.html
+
+Heading: Argparse Tutorial
+Link: argparse.html
+
+Heading: An introduction to the ipaddress module
+Link: ipaddress.html
+
+Heading: Argument Clinic How-To
+Link: clinic.html
+
+Heading: Instrumenting CPython with DTrace and SystemTap
+Link: instrumentation.html
+
+Heading: Annotations Best Practices
+Link: annotations.html
+
+Heading: Isolating Extension Modules
+Link: isolating-extensions.html
+

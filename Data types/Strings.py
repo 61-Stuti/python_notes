@@ -61,9 +61,29 @@ print(int("".join(nums)))
 print("s".join(nums))
 
 
+
 needle = 'sad'
 haystack = 'sadaboutsad'
 
 import re
 match = re.search(needle,haystack)
 print(match.span())
+
+
+
+import string
+punc = list(string.punctuation)
+
+s = "A man, a plan, a canal: Panama"
+s= s.replace(' ','')
+s1='' 
+for i in s:
+    if i not in punc:
+        s1+=i
+s1 = s1.lower()
+s2 = s1[::-1]
+
+if s1[::]==s2[::]:
+    print(True)
+else:
+    print(False)

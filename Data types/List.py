@@ -20,6 +20,7 @@ L.append("abhijeet")
 print(L)
 print( L.pop(1))
 
+
 new_list= ['a','b','x','o','n']
 new_list.sort()
 print(new_list)
@@ -51,3 +52,22 @@ print(fahrenheit)
 
 mylist= [x*y for x in [1,2,3] for y in [1,10,100]]
 print(mylist)
+
+
+prices = [2,4,1]
+#[7,1,5,3,6,4][7,6,4,3,1]
+L=[]
+#print(min(prices))
+
+for i in range(0,len(prices)):
+
+    for j in range(i+1,len(prices)):
+        if prices[i]<prices[j]:
+            diff = prices[j] - prices[i]
+            if diff not in L:
+                L.append(diff)
+        
+if len(L)>0:
+    print(max(L))
+else:
+    print('0')
