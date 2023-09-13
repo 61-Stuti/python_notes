@@ -64,7 +64,7 @@ while x<5:
 
 #enumerate
 
-word="abcde"
+word="abcdc"
 
 for i in enumerate(word):      #presents the index andword in the form of tuple
     print(i)

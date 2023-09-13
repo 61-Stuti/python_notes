@@ -10,8 +10,5 @@ for i in range(0,len(a)):
 print(check)
 
 
-#(coordinates[1][1] - coordinates[0][1]) * (coordinates[2][0] - coordinates[0][0]) == (coordinates[2][1] - coordinates[0][1]) *(coordinates[1][0] - coordinates[0][0])
 
 
-L = [1,2,3]
-print(len(L))

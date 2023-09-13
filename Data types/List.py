@@ -9,6 +9,7 @@ for i in range (0, len(L)):
 
 for i in range (0, len(L)):
     print(L[i])
+print()
 
 L[0]= "names"
 print(L)
@@ -71,3 +72,7 @@ if len(L)>0:
     print(max(L))
 else:
     print('0')
+
+my_list=[1,2,[3,4]]
+my_list.insert(2,4)              
+print(my_list)

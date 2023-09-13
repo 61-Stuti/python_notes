@@ -34,6 +34,9 @@ print(name3[5:-6:-2])
 print(name3[5::-2])
 print((name3 + " ") * 3 + " " + ("Nigam" + " ") * 4 )
 
+s='hello'
+print(s[::-1])
+
 #substrings
 sentence="My name. is stuti."
 print(sentence.split())
@@ -53,7 +56,7 @@ print(sentence3.lstrip())
 num = 9969
 nums = str(num).replace('',' ').split()
 
-for i in range(0,len(nums)):
+for i in range(len(nums)):
     if nums[i] == '6':
         nums[i] = '9'
         break

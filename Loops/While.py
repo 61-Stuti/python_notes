@@ -1,10 +1,7 @@
-a=0
-while (a<10):
-    print(a)
-    a=a+1
+
 
 a=0
-while (a<10):
+while (a==0):
     if (a>1):
         print("a>1")
     elif (a>2):
