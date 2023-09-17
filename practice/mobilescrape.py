@@ -11,8 +11,7 @@ tag = soup.find_all('div', class_='col-right')
 for i in tag:
     #print(i)
     z = i.find('div', class_='title').b.a.text
-    print("Mobile name: ", end=" ")
-    print(z)
+    print("Mobile name: ", z.strip())
 
     for j in i.find_all('div', class_='item'):
         y = j.text

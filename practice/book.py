@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-for page in range(1,10):
+for page in range(1,11):
     source = requests.get(f'https://books.toscrape.com/catalogue/page-{page}.html').text
     soup = BeautifulSoup(source, 'lxml')
     #print(soup.prettify())
